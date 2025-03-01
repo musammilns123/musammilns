@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="shortcut icon" href="images/me.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar" id="sidebar">
+            <div class="close-btn" onclick="toggleSidebar()">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="profile">
+                <img src="images/img 1.jpeg" alt="Profile Picture">
+                <h2>Muzammil</h2>
+                <p>Web Developer</p>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="active"><a href="pro.html">Projects</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Services <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="menu-btn" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <section class="projects-section">
+                <h1>My Projects</h1>
+                
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Development</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="design">UI/UX Design</button>
+                </div>
+                
+                <div class="project-grid">
+                    <div class="project-card" data-category="web">
+                        <img src="images/image.webp" alt="E-commerce Project">
+                        <div class="project-info">
+                            <h3>E-commerce Website</h3>
+                            <p>A fully functional online store with payment processing, inventory management, and customer accounts.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <a href="#" class="btn-small">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="mobile">
+                        <img src="images/image.webp" alt="Fitness App">
+                        <div class="project-info">
+                            <h3>Fitness Tracking App</h3>
+                            <p>A mobile application for tracking workouts, nutrition, and fitness goals with progress visualization.</p>
+                            <div class="project-tags">
+                                <span>React Native</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                            <a href="#" class="btn-small">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="design">
+                        <img src="images/image.webp" alt="Portfolio Design">
+                        <div class="project-info">
+                            <h3>Portfolio Template</h3>
+                            <p>A customizable portfolio template designed for creative professionals with smooth animations.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>GSAP</span>
+                            </div>
+                            <a href="#" class="btn-small">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="web">
+                        <img src="images/image.webp" alt="Real Estate Website">
+                        <div class="project-info">
+                            <h3>Real Estate Platform</h3>
+                            <p>A web platform for property listings with advanced search filters and virtual tours.</p>
+                            <div class="project-tags">
+                                <span>React.js</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <a href="#" class="btn-small">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="mobile">
+                        <img src="images/image.webp" alt="Food Delivery App">
+                        <div class="project-info">
+                            <h3>Food Delivery App</h3>
+                            <p>A mobile application for ordering food from local restaurants with real-time delivery tracking.</p>
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <a href="#" class="btn-small">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card" data-category="design">
+                        <img src="images/image.webp" alt="Banking App UI">
+                        <div class="project-info">
+                            <h3>Banking App UI Design</h3>
+                            <p>A modern and secure user interface design for a mobile banking application.</p>
+                            <div class="project-tags">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                                <span>Sketch</span>
+                                <span>Firebase</span>
+                                <span>Google Maps API</span>
+                            </div>
+                            <a href="#" class="btn-small">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/port.js"></script>
+</body>
+</html>

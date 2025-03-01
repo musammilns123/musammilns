@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muzammil</title>
+    <link rel="shortcut icon" href="images/me.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar" id="sidebar">
+            <div class="close-btn" onclick="toggleSidebar()">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="profile">
+                <img src="images/img 4.jpeg"alt="Profile Picture">
+                <h2>Muzammil</h2>
+                <p>Web Developer</p>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pro.html">Projects</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Services <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/m.xxhhh/?hl=en"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="menu-btn" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <header>
+                <div class="hero">
+                    <h1>Welcome To My Space..</h1>
+                    <p>Hi, I'm Muzammil, a passionate web designer, developer based in Kallara. <br/>
+                       I specialize in creating impactful and user-friendly digital experiences <br/>
+                       that blend creativity and functionality. My goal is to bring ideas to life <br/>
+                       with clean, innovative designs that speak to the audience. Explore my work, <br/>
+                       and let's connect to make something amazing together!</p>
+                    <a href="about.html" class="btn">Get in Touch</a>
+                </div>
+            </header>
+
+            <section class="skills">
+                <h2>My Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-box">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive and dynamic websites using modern technologies.</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                        <p>Building native and cross-platform mobile applications.</p>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing user-friendly interfaces with great user experience.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured-projects">
+                <h2>Featured Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="images/imag.png" alt="Project 1">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully functional e-commerce platform with payment integration.</p>
+                        <a href="pro.html" class="btn-small">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/image.webp" alt="Project 2">
+                        <h3>Portfolio Template</h3>
+                        <p>A customizable portfolio template for creative professionals.</p>
+                        <a href="pro.html" class="btn-small">View Details</a>
+                    </div>
+                    <div class="project-card">
+                        <img src="images/images.png" alt="Project 3">
+                        <h3>Task Management App</h3>
+                        <p>A productivity application to help manage tasks efficiently.</p>
+                        <a href="pro.html" class="btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="view-more">
+                    <a href="pro.html" class="btn">View All Projects</a>
+                </div>
+            </section>
+
+            <footer>
+                <p>&copy; 2025 All Rights Reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/port.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="shortcut icon" href="images/me.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <div class="sidebar" id="sidebar">
+            <div class="close-btn" onclick="toggleSidebar()">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="profile">
+                <img src="images/img 2.jpeg" alt="Profile Picture">
+                <h2>Muzammil</h2>
+                <p>Web Developer</p>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="pro.html">Projects</a></li>
+                    <li><a href="port.html">Portfolio</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="dropdown-container">
+                <button class="dropdown-btn">Services <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Mobile App Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <div class="menu-btn" onclick="toggleSidebar()">
+                <i class="fas fa-bars"></i>
+            </div>
+            
+            <section class="contact-section">
+                <h1>Contact Me</h1>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2>Don't be shy!</h2>
+                        <p>Feel free to reach out for project inquiries, collaborations, or just to say hello! I'm always open to discussing new ideas and opportunities.</p>
+                        <br/>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>You can contact me directly via email at: <br/>
+                                    musammilmusu458@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>For quicker inquiries, feel free to call or WhatsApp me at: <br/>
+                                   +91 9656916739</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-links">
+                            <h3>Connect With Me</h3>
+                            <div class="social-icons-large">
+                                <a href=""><i class="fab fa-facebook"></i></a>
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-linkedin"></i></a>
+                                <a href=""><i class="fab fa-github"></i></a>
+                                <a href="https://www.instagram.com/m.xxhhh/?hl=en"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h2>Send Me a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>    
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Back to Home Button -->
+                <div class="back-home">
+                    <a href="index.html" class="back-home-btn">Back to Home</a>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/port.js"></script>
+</body>
+</html>
